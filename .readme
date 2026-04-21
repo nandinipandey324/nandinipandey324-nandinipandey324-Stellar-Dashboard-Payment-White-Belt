@@ -1,0 +1,156 @@
+# 🚀 Stellar Banking Dashboard Level-1
+
+A modern, high-performance **Stellar Testnet Wallet Dashboard** built with a premium fintech UI/UX approach. This project demonstrates seamless wallet interaction, transaction handling, and a production-grade interface design.
+
+---
+
+## ✨ Features
+
+### 🔐 Wallet Integration
+- **Connect & Disconnect:** Seamlessly link with the Freighter wallet.
+- **Automatic Detection:** Built-in network detection for Stellar Testnet.
+- **Real-time Display:** Instant wallet address visibility upon connection.
+
+### 💰 Balance Management
+- **Live Data:** Fetch real-time XLM balances via Stellar SDK.
+- **Dynamic UI:** Balance cards update automatically without page refreshes.
+
+### 💸 Transaction System
+- **Secure Sending:** Transfer XLM to any valid Stellar address.
+- **Validation:** Robust client-side validation for addresses and amounts.
+- **Live Feedback:** Real-time success/error notifications with transaction hashes.
+
+### 🎨 Advanced UI/UX
+- **Glassmorphism:** Layered UI with frosted glass effects.
+- **Visual Depth:** Subtle grid patterns and smooth animations using **Framer Motion**.
+- **Fintech Aesthetic:** Clean, high-contrast black-and-white design optimized for single-screen use.
+
+---
+
+## 🧱 Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React + Vite |
+| **Styling** | Tailwind CSS |
+| **Animation** | Framer Motion |
+| **Icons** | Lucide React |
+| **Blockchain** | Stellar SDK |
+| **Wallet API** | Freighter |
+
+---
+
+## 📁 Project Structure
+
+```text
+stellar-wallet-app/
+├── src/
+│   ├── services/
+│   │   ├── freighter.js   # Wallet connection logic
+│   │   └── stellar.js     # Horizon server interactions
+│   ├── App.jsx            # Main dashboard component
+│   ├── main.jsx
+│   └── index.css          # Tailwind & Global styles
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+
+## 📸 Screenshots
+
+<img width="1918" height="872" alt="1" src="https://github.com/user-attachments/assets/4c96d4a3-2bb2-402b-913f-a75bd3f72a2b" />
+
+<img width="1918" height="965" alt="2" src="https://github.com/user-attachments/assets/2dad942e-d137-4f7f-97b8-8e8511e74128" />
+
+<img width="1918" height="871" alt="3" src="https://github.com/user-attachments/assets/419aa6dd-0923-4dc4-ac1e-5d0bdfd395d7" />
+
+
+<img width="1917" height="965" alt="4" src="https://github.com/user-attachments/assets/803c71b8-3c99-4e37-bebb-b686c6589407" />
+<img width="1918" height="547" alt="5" src="https://github.com/user-attachments/assets/3f253783-b696-4c16-a877-b39240d25c09" />
+
+<img width="1916" height="872" alt="6" src="https://github.com/user-attachments/assets/79e89e88-ae70-4fc1-b43d-c45b750c8b27" />
+
+
+
+
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/stellar-wallet-app.git
+cd stellar-wallet-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Install Required Packages *(if starting from scratch)*
+
+```bash
+npm install framer-motion lucide-react @stellar/stellar-sdk @stellar/freighter-api
+```
+
+### 4. Run the Application
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧪 Usage
+
+1. **Connect Wallet** — Click the **Connect** button and approve the request in your Freighter browser extension.
+2. **Send XLM** — Enter the recipient's public key and the amount.
+3. **Approve** — Confirm the transaction in the Freighter popup.
+4. **View Status** — Monitor the dashboard for the transaction hash and updated balance.
+
+---
+
+## 🎯 Design Philosophy
+
+- **Micro-interactions:** Small visual cues that provide immediate feedback.
+- **Typography Hierarchy:** Clear font scaling for optimal readability.
+- **Security First:** No private keys are ever stored or handled by the app — all signing happens within Freighter.
+
+---
+
+## 🚀 Future Enhancements
+
+- **Transaction History:** A detailed table of past activities.
+- **QR Integration:** Scan to receive XLM.
+- **Analytics:** Visual charts for spending/receiving trends.
+- **Dark/Light Mode:** Full theme toggle support.
+- **Explorer Links:** Direct links to Stellar.expert for every transaction.
+
+---
+
+## 🧑‍💻 Author
+
+**Nandini Pandey**
+
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🔗 Useful Links
+
+- [Stellar Documentation](https://developers.stellar.org/)
+- [Freighter Wallet](https://www.freighter.app/)
+- [Stellar Explorer](https://stellar.expert/)
